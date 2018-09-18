@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="background-color: #e0e0e0;">
+<ul class="nav nav-tabs"> <!-- Navigation Bar : BEGINS -->
+		  <li class="nav-item"> <a class="nav-link active" href="#">Course Marshal</a> </li>
+		  <li class="nav-item"> <a class="nav-link active" href="#">Players</a> </li>
+		  <li class="nav-item dropdown"><a class="nav-link active" href="#" role="button" aria-expanded="false">Holes</a>
+		  <li class="nav-item"> <a class="nav-link active" href="#">Support</a> </li>
+		  <li class="nav-item"> <a class="nav-link active" href="logout.html">Sign Out</a> </li>
+    </ul> <!-- Navigation Bar : ENDS -->
+	<table bgcolor="#e0e0e0" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;"> <!-- Body : BEGINS -->
+	
+		<table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="600" class="email-container">
+          <tr>
+              <td style="padding: 40px; text-align: center; font-family: sans-serif; font-size: 15px; mso-height-rule: exactly; line-height: 20px; color: #555555;"> <h1>Welcome Amanda</h1>List of Holes
+        
+<tr>
+          <td id="list_content">
+			  <h5>Notice:</h5><p class="notice">When members take longer than 14 minutes on a hole, you will recieve a notification and a row will appear red with the corresponding hole. To notify staff, select the appropriate holes and click 'Notify Staff' </p>
+		    <table border="1" align="center" id="list_description">
+			    <tr>
+			      <td>Action:</td>
+					<td>Hole</td>
+			      <td>collectPlayers</td>
+			      <td>Timestamp</td>
+					<td>Notifed:</td>
+		      </tr>
+			    <tr>
+			      <td><input type="checkbox"></td>
+					<td>1</td>
+			      <td>1</td>
+			      <td>0 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>2</td>
+			      <td>1</td>
+			      <td>11 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>3</td>
+			      <td>4</td>
+			      <td>2 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>4</td>
+			      <td>2</td>
+			      <td>1 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>5</td>
+			      <td>3</td>
+			      <td>6 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>6</td>
+			      <td>1</td>
+			      <td>13 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox" ></td>
+			      <td>7</td>
+			      <td>2</td>
+			      <td>7 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>8</td>
+			      <td>3</td>
+			      <td>11 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>9</td>
+			      <td>4</td>
+			      <td>10 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>10</td>
+			      <td>3</td>
+			      <td>11 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>11</td>
+			      <td>2</td>
+			      <td>8 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>12</td>
+			      <td>1</td>
+			      <td>12 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr style="background-color: #E06769;">
+					<td><input type="checkbox"></td>
+			      <td>13</td>
+			      <td>3</td>
+			      <td>16 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr style="background-color: #E06769;">
+					<td><input type="checkbox" onclick="myFunct()"></td>
+			      <td>14</td>
+			      <td>4</td>
+			      <td>19 Minutes</td>
+					<td id="demoYes">No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>15</td>
+			      <td>2</td>
+			      <td>12 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>16</td>
+			      <td>2</td>
+			      <td>9 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>17</td>
+			      <td>2</td>
+			      <td>8 Minutes</td>
+					<td>No</td>
+		      </tr>
+			    <tr>
+					<td><input type="checkbox"></td>
+			      <td>18</td>
+			      <td>1</td>
+			      <td>7 Minutes</td>
+					<td>No</td>
+		      </tr>
+		    </table>
+			  <br>
+			  <a href="index-refresh.html" target="new"><button type="submit" class="btn btn-primary">Refresh</button></a>
+            <button type="reset" class="btn btn-primary" onclick="document.getElementByID('demos').innerHTML = 'Cleared'">Clear</button>
+			  <button class="btn btn-primary" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("Are you sure?")) {
+        txt = "Staff has been notified!";
+    } else {
+        txt = "Canceled!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+function myFunct() {
+    var str = document.getElementById("demoYes").innerHTML; 
+    var res = str.replace("No", "Yes");
+    document.getElementById("demoYes").innerHTML = res;
+}
+</script>			  
+			  <br>
+        </table>
+	
+	<br>
+		
+	</table><!-- Body : BEGINS -->
+	
+	
+	<table align="center" width="600" class="email-container"> <!-- Email Footer : BEGINS -->
+            <tr>
+                <td style="padding: 40px 10px;width: 100%;font-size: 12px; font-family: sans-serif; mso-height-rule: exactly; line-height:18px; text-align: center; color: #888888;"><webversion style="color:#cccccc; text-decoration:underline; font-weight: bold;">View as a Web Page</webversion>
+                <br>
+                <br>
+                Course Marshal<br>
+                <span class="mobile-link--footer">Adobe Systems Incorporated, 345 Park Avenue</span> <br>
+                <br>
+				<span class="mobile-link--footer" href="#">Contact IT Support</span> <br>
+      </tr>
+</table>
+</body>
+</html>
